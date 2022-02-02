@@ -1,0 +1,70 @@
+@import "null.css";
+
+/* * header section */
+header {
+	color: orangered;
+}
+#start {
+	color: orange;
+}
+header p span {
+	color: gray;
+}
+header p mark {
+	color: green;
+}
+header ul li {
+	color: lawngreen;
+}
+.nav span {
+	color: slategrey;
+}
+.sub-nav span {
+	color: tomato;
+}
+/* * main section */
+/* ? paragraph_1 section */
+.paragraph-1 h2 {
+	color: rebeccapurple;
+}
+#paragraph_1 ~ p {
+	color: purple;
+}
+/* ? paragraph_2 section */
+.paragraph-2 {
+	color: red;
+}
+/* ? paragraph_3 section + paragraph_4 section */
+.paragraph-3,
+.paragraph-4 {
+	color: teal;
+}
+/* ? paragraph_5 section + paragraph_6 section */
+.paragraph-5 {
+	color: sienna;
+}
+#paragraph_5 {
+	color: sandybrown;
+}
+[class*="text"] {
+	color: royalblue;
+}
+/* ? paragraph_7 section */
+.duo-1,
+.duo-3 {
+	color: springgreen;
+}
+.duo-2,
+.duo-0 {
+	color: yellow;
+}
+/* * footer section */
+.link + p {
+	color: sienna;
+}
+.list .list-1 {
+	color: red;
+}
+.list .list-2 {
+	color: tan;
+}
